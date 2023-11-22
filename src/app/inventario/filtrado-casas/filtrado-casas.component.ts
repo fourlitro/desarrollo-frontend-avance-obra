@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-filtrado-casas',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./filtrado-casas.component.scss']
 })
 export class FiltradoCasasComponent {
+
+  @Input() mensaje: string = '';
 
 }
