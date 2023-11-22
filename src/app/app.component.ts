@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'desarrollo-frontend-avance-obra';
+  title = 'gestión de construcción para gerencia';
 }
