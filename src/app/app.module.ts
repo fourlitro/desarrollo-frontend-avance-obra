@@ -9,9 +9,10 @@ import { DashboardModule } from './pages/dashboard/dashboard.module';
 import { InventarioModule } from './pages/inventario/inventario.module';
 import { ProgresoConstruccionModule } from './pages/progreso-construccion/progreso-construccion.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
